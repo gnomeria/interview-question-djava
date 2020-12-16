@@ -32,9 +32,13 @@ public class Q2 {
      * @return
      */
     private int GetNumberOfFiles(File file, int count) {
-        if(!file.exists()) return 0; //the provided file path does not exist
+        if(!file.exists()) {
+            return 0; //the provided file path does not exist
+        }
         int current = 0;
-        if(file.isFile()) return 1;
+        if(file.isFile()) {
+             return 1;
+        }
         else {
             for (File f : file.listFiles()) {
                 current = current + GetNumberOfFiles(f, ++count);

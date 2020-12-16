@@ -1,6 +1,6 @@
-# Some interview questions and solutions
+# Some interview questions and solutions [![Maintainability](https://api.codeclimate.com/v1/badges/85cc07be5c6b99a815c6/maintainability)](https://codeclimate.com/github/gnomeria/interview-question-djava/maintainability)
 
->***These Java classes require Java 8***
+> **_These Java classes require Java 8_**
 
 The project uses Maven as its build and dependency tools, and jUnit as its
 unit testing framework.
@@ -14,7 +14,7 @@ This will run all tests from `src/test/java/*`
 This project's questions classes solutions ( `Q2.java`, `Q3.java`, `Q3_Optimize.java` ) DOES NOT have main class, so that it's
 cleaner to see the solution, and running the test classes can be used instead.
 
-********************************
+---
 
 ## Question 1
 
@@ -22,16 +22,16 @@ cleaner to see the solution, and running the test classes can be used instead.
 - It should return True if the first character is an uppercase.
 - You cannot use `String` APIs.
 
-********************************
+---
 
-********************************
+---
 
 ## Question 2
 
 - Write a solution that returns an `Integer` with the total number of files
-in a given folder including any files in its’ sub-folders (if any exist)
+  in a given folder including any files in its’ sub-folders (if any exist)
 
-********************************
+---
 
 ## Question 3
 
@@ -45,7 +45,7 @@ in a given folder including any files in its’ sub-folders (if any exist)
   - The exit is represented by a `3`.
   - Each path can only have two end points; **entrance** and **exit**. You cannot use the entrance or exit more than once foreach path.
   - You have to step on every spot exactly once.
-  - You can only move like a King in chess(***horizontally*** or ***vertically*** but not diagonally)
+  - You can only move like a King in chess(**_horizontally_** or **_vertically_** but not diagonally)
 
 ### Example:
 
@@ -60,6 +60,6 @@ in a given folder including any files in its’ sub-folders (if any exist)
 
 > The answer is 4
 
-Your program should read from standard input with a series of integers with whitespace as delimiter. The ***first two integer*** represents the `width` and `height` of the maze. It will then befollowed by width * height more integers.Your output should be an integer which shows the total number of possiblepath
+Your program should read from standard input with a series of integers with whitespace as delimiter. The **_first two integer_** represents the `width` and `height` of the maze. It will then befollowed by width \* height more integers.Your output should be an integer which shows the total number of possiblepath
 
-********************************
+---

@@ -25,7 +25,7 @@ public class SolutionsTestRunner {
         Result result = JUnitCore.runClasses(classList.toArray(new Class<?>[classList.size()]));
         if (result.wasSuccessful()) {
             logger.info("All tests passed successfully. Tests ran for: {}ms", result.getRunTime());
-            return;
+            return 0;
         }
         result.getFailures().forEach(f -> logger.error("Error on: {}", f));
     }

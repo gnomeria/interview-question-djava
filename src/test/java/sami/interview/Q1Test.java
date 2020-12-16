@@ -22,6 +22,7 @@ public class Q1Test {
         assertTrue(Q1.isFirstCharUppercase("Jvm"));
         assertTrue(Q1.isFirstCharUppercase("Github"));
         assertTrue(Q1.isFirstCharUppercase("Sami"));
+        assertTrue(Q1.isFirstCharUppercase("Sami"));
     }
 
     @Test
